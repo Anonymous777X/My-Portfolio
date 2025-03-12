@@ -1357,7 +1357,7 @@ body:not([data-theme="dark"]) .header.scrolled .mobile-menu-toggle {
   .testimonial-card,
   .project-card {
     margin: auto;
-    max-width: 300px;
+    max-width: 30np0px;
   }
   
   .projects-grid,
