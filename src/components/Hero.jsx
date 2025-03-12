@@ -36,7 +36,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Hello, I'm <span className="highlighted-text">Your Name</span>
+            Hello, I'm <span className="highlighted-text">Sahil Patyal</span>
           </motion.h1>
           
           <motion.div
@@ -44,7 +44,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h2>Creative Developer & Designer</h2>
+            <h2>Full Stack Developer & Designer</h2>
             <p>
               I create beautiful, functional, and responsive websites and applications.
               With a passion for clean code and user-friendly interfaces, I deliver
@@ -117,7 +117,7 @@ const Hero = () => {
               alt="Developer Profile" 
               onError={(e) => {
                 e.target.onerror = null;
-                e.target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80";
+                e.target.src = "https://res.cloudinary.com/davovg4nm/image/upload/f_auto,q_auto/v1/my%20photos/t7ilxu0wnayprdajedtq";
               }}
             />
           </div>
