@@ -1,0 +1,4 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" rx="20" fill="#007BFF"/>
+    <text x="50%" y="55%" font-size="150" font-family="Arial, sans-serif" fill="white" font-weight="bold" text-anchor="middle" alignment-baseline="middle">SP</text>
+</svg>

@@ -46,7 +46,7 @@ const Header = () => {
 
         <div className="nav-container">
           <nav className="nav-links">
-            {['Home', 'About', 'Skills', 'Experience', 'Projects', 'Contact'].map((item, index) => (
+            {['Home', 'About', 'Skills', 'Education', 'Projects', 'Contact'].map((item, index) => (
               <motion.a 
                 key={item}
                 href={`#${item.toLowerCase()}`}
