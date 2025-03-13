@@ -32,7 +32,7 @@ const Projects = () => {
       image: 'https://as1.ftcdn.net/jpg/02/80/25/16/1000_F_280251625_S73jfCfb7btjIhSNfTWcL76vuegFxvOG.webp',
       description: ' A frontend-only replica of Spotify, designed with HTML and CSS to mimic the original interface.',
       tags: ['HTML', 'CSS'],
-      liveLink: 'Not Live',
+      liveLink: 'https://spotify-clone-psi.vercel.app/',
       githubLink: 'https://github.com/Anonymous777X'
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
       image: 'https://wallpapercave.com/wp/wp1913251.jpg',
       description: ' A Python-powered virtual assistant for Linux and Windows, integrated with various libraries for enhanced functionality.',
       tags: ['Python', 'ttsx3', 'pywhatkit', 'pyjokes'],
-      liveLink: 'Not live yet',
+      // liveLink: '#', 
       githubLink: 'https://github.com/Anonymous777X'
     },
 
