@@ -11,12 +11,10 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-info">
           <div className="footer-logo">
-            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="32" height="32" rx="8" fill="currentColor"/>
-              <path d="M10 8L22 8C23.1046 8 24 8.89543 24 10L24 22C24 23.1046 23.1046 24 22 24L10 24C8.89543 24 8 23.1046 8 22L8 10C8 8.89543 8.89543 8 10 8Z" stroke="white" strokeWidth="2"/>
-              <path d="M16 10V22" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              <path d="M10 16H22" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
+          <svg width="30" height="30" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="200" fill="#3498db" rx="20"/>
+        <text x="50%" y="50%" font-size="100" font-family="Arial, sans-serif" fill="white" font-weight="bold" text-anchor="middle" dominant-baseline="middle">SP</text>
+    </svg>
             Portfolio
           </div>
           <p className="footer-text">
@@ -41,7 +39,7 @@ const Footer = () => {
               <div className="footer-contact-icon">
                 <FaEnvelope />
               </div>
-              <span>Sahilpatyal522@gmail.com</span>
+              <span>Sahilpatial522@gmail.com</span>
             </div>
           </div>
           

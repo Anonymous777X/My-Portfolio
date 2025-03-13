@@ -12,19 +12,19 @@ const Experience = () => {
     {
       date: '2021 - 2024',
       title: 'Chandigarh Group of Colleges, Punjab',
-      company: '8.02 SGPA',
+      company: 'Bachelor in Technology( CSE )- 8.02 SGPA',
       description: 'Chandigarh Group of Colleges, Landran – A premier institute in Punjab known for quality education, strong placements, and industry collaborations.'
     },
     {
       date: '2019 - 2021',
       title: 'Dr. B.R. Ambedkar Govt. Polytechnic College, Himachal Pradesh',
-      company: '73%',
+      company: 'Diploma in CSE - 73%',
       description: 'Dr. B.R. Ambedkar Govt. College, Ambota, HP – A reputed institution in Himachal Pradesh offering quality education and diverse academic programs.'
     },
     {
       date: '2016 - 2017',
       title: 'D.A.V.M. Public School, Himachal Pradesh',
-      company: '8.2 CGPA',
+      company: 'Marticulation - 8.2 CGPA',
       description: 'D.A.V.M Public School, Badhal Thore – A school focused on quality education and holistic development, following DAV traditions and values.'
     },
   ];

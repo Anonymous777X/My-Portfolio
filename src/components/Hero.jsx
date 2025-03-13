@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -69,7 +69,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
           >
             <motion.a 
-              href="https://github.com" 
+              href="https://github.com/Anonymous777X" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ y: -5 }}
@@ -78,7 +78,7 @@ const Hero = () => {
               <FaGithub />
             </motion.a>
             <motion.a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/sahilpatyal/" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ y: -5 }}
@@ -87,16 +87,16 @@ const Hero = () => {
               <FaLinkedin />
             </motion.a>
             <motion.a 
-              href="https://twitter.com" 
+              href="https://www.instagram.com/sahil_ptyal/"  
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ y: -5 }}
               transition={{ duration: 0.2 }}
             >
-              <FaTwitter />
+              <FaInstagram />
             </motion.a>
             <motion.a 
-              href="mailto:your-email@example.com" 
+              href="mailto:sahilpatial522@gmail.com" 
               whileHover={{ y: -5 }}
               transition={{ duration: 0.2 }}
             >

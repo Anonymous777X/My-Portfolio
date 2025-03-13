@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaGithub, FaLinkedin, FaTwitter,FaInstagram, FaFacebook, } from 'react-icons/fa';
 
 const Contact = () => {
   const [ref, inView] = useInView({
@@ -39,7 +39,7 @@ const Contact = () => {
               If you have a project that needs some creative touch, or if you're
               looking to hire, please feel free to reach out.
             </p>
-            
+            <div className="contact-info-container">
             <div className="contact-item">
               <div className="contact-icon">
                 <FaMapMarkerAlt />
@@ -66,8 +66,9 @@ const Contact = () => {
               </div>
               <div>
                 <h4>Email</h4>
-                <p>Sahilpatyal522@gmail.com</p>
+                <p>Sahilpatial522@gmail.com</p>
               </div>
+            </div>
             </div>
             
             <div className="social-links">
@@ -96,7 +97,16 @@ const Contact = () => {
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.2 }}
               >
-                <FaTwitter />
+                <FaInstagram />
+              </motion.a>
+              <motion.a 
+                href="https://twitter.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                whileHover={{ y: -5 }}
+                transition={{ duration: 0.2 }}
+              >
+                <FaFacebook />
               </motion.a>
             </div>
           </motion.div>

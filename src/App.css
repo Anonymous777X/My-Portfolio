@@ -482,7 +482,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 1.5rem;
   padding: 0 1rem;
@@ -497,18 +497,23 @@
   flex: 1 1 calc(33.333% - 1.5rem);
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
-  min-width: 250px;
+  /* gap: 1rem; */
+  min-width: 150px;
   background-color: var(--card-bg) !important;
-  padding: 1.5rem;
+  padding: none;
   border-radius: var(--border-radius-md);
   box-shadow: var(--shadow-sm) !important;
   transition: all var(--transition-fast);
   color: var(--text-color) !important;
   border: none !important;
   outline: none !important;
+  margin: 1rem;
 }
-
+.contact-info-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .contact-item:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-md) !important;
@@ -1041,8 +1046,8 @@ body:not([data-theme="dark"]) .header.scrolled .mobile-menu-toggle {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--light-color);
-  color: var(--primary-color);
+  background-color: white;
+  color: var(--light-color);
   font-size: 1.2rem;
   transition: all var(--transition-fast);
   box-shadow: var(--shadow-sm);
@@ -1050,7 +1055,7 @@ body:not([data-theme="dark"]) .header.scrolled .mobile-menu-toggle {
 
 .social-links a:hover {
   background: var(--gradient-primary);
-  color: white;
+  color:var(--light-color);
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
 }
