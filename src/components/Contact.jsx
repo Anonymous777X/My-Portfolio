@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4>Location</h4>
-                <p>New York City, NY</p>
+                <p>Kangra, Himachal Pradesh</p>
               </div>
             </div>
             
@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4>Phone</h4>
-                <p>+1 (555) 123-4567</p>
+                <p>+91 7876298387</p>
               </div>
             </div>
             
@@ -66,13 +66,13 @@ const Contact = () => {
               </div>
               <div>
                 <h4>Email</h4>
-                <p>hello@yourname.com</p>
+                <p>Sahilpatyal522@gmail.com</p>
               </div>
             </div>
             
             <div className="social-links">
               <motion.a 
-                href="https://github.com" 
+                href="https://github.com/Anonymous777X" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ y: -5 }}
@@ -81,7 +81,7 @@ const Contact = () => {
                 <FaGithub />
               </motion.a>
               <motion.a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/sahilpatyal/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ y: -5 }}

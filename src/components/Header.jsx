@@ -37,12 +37,10 @@ const Header = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="32" height="32" rx="8" fill="currentColor"/>
-            <path d="M10 8L22 8C23.1046 8 24 8.89543 24 10L24 22C24 23.1046 23.1046 24 22 24L10 24C8.89543 24 8 23.1046 8 22L8 10C8 8.89543 8.89543 8 10 8Z" stroke="white" strokeWidth="2"/>
-            <path d="M16 10V22" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-            <path d="M10 16H22" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-          </svg>
+         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="32" height="32" rx="8" fill="currentColor"/>
+    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" dy=".35em">SP</text>
+        </svg>
           Portfolio
         </motion.div>
 

@@ -1846,14 +1846,3 @@ body:not([data-theme="dark"]) .header.scrolled .mobile-menu-toggle {
   font-size: 0.8rem;
   color: var(--text-color) !important;
 }
-
-/* Projects Grid Layout */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 2rem;
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-

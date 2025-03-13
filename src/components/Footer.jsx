@@ -29,25 +29,25 @@ const Footer = () => {
               <div className="footer-contact-icon">
                 <FaMapMarkerAlt />
               </div>
-              <span>New York City, NY</span>
+              <span>Kangra, Himachal Pradesh</span>
             </div>
             <div className="footer-contact-item">
               <div className="footer-contact-icon">
                 <FaPhone />
               </div>
-              <span>+1 (555) 123-4567</span>
+              <span>+91 7876298387</span>
             </div>
             <div className="footer-contact-item">
               <div className="footer-contact-icon">
                 <FaEnvelope />
               </div>
-              <span>hello@yourname.com</span>
+              <span>Sahilpatyal522@gmail.com</span>
             </div>
           </div>
           
           <div className="footer-social">
             <motion.a 
-              href="https://github.com" 
+              href="https://github.com/Anonymous777X" 
               target="_blank" 
               rel="noopener noreferrer"
               className="github"
@@ -57,7 +57,7 @@ const Footer = () => {
               <FaGithub />
             </motion.a>
             <motion.a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/sahilpatyal/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="linkedin"
@@ -67,7 +67,7 @@ const Footer = () => {
               <FaLinkedin />
             </motion.a>
             <motion.a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/sahil_ptyal/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="instagram"
@@ -77,7 +77,7 @@ const Footer = () => {
               <FaInstagram />
             </motion.a>
             <motion.a 
-              href="https://facebook.com" 
+              href="https://www.facebook.com/sahil.patial.566" 
               target="_blank" 
               rel="noopener noreferrer"
               className="facebook"
@@ -91,7 +91,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+        <p>&copy; {currentYear} Sahil Patyal. All rights reserved.</p>
       </div>
     </footer>
   );

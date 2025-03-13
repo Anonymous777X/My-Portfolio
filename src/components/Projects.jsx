@@ -12,53 +12,40 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      image: 'https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-      description: 'A full-featured e-commerce platform with product management, cart functionality, and payment processing.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
-    },
-    {
-      title: 'Task Management App',
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80',
-      description: 'A collaborative task management application with real-time updates, task assignment, and progress tracking.',
-      tags: ['React', 'Firebase', 'Material UI', 'Redux'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
-    },
-    {
-      title: 'Fitness Tracking Dashboard',
-      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-      description: 'A dashboard for tracking fitness metrics with data visualization, goal setting, and progress analytics.',
-      tags: ['React', 'D3.js', 'Express', 'PostgreSQL'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
+      title: 'WanderVerse- New ways to Explore',
+      image: 'https://res.cloudinary.com/davovg4nm/image/upload/f_auto,q_auto/lvzewpte2sxdqfahqw52',
+      description: 'A full-stack Airbnb-inspired platform built with the MERN stack, using EJS for dynamic templating instead of React.',
+      tags: ['Express', 'Node.js', 'MongoDB', 'EJS','HTML&CSS'],
+      liveLink: 'https://wanderlust-9prv.onrender.com/listings',
+      githubLink: 'https://github.com/Anonymous777X'
     },
     {
       title: 'Weather Application',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80',
-      description: 'A weather application that provides detailed forecasts, interactive maps, and location-based weather alerts.',
-      tags: ['JavaScript', 'Weather API', 'Chart.js', 'Geolocation'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
+      image: 'https://res.cloudinary.com/davovg4nm/image/upload/f_auto,q_auto/dpdtx5j9avtv5jwansiy',
+      description: ' A React-based weather application featuring Material UI for styling and React Router for seamless navigation.',
+      tags: ['React', 'React-Router', 'Material-UI'],
+      liveLink: 'https://himyweather.netlify.app/',
+      githubLink: 'https://github.com/Anonymous777X'
     },
     {
-      title: 'Recipe Sharing Platform',
-      image: 'https://images.unsplash.com/photo-1495521821757-a1efb6729352?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=926&q=80',
-      description: 'A community-driven platform for sharing recipes, with search functionality, ratings, and user profiles.',
-      tags: ['React', 'Node.js', 'MongoDB', 'AWS S3'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
+      title: 'Spotify Clone',
+      image: 'https://as1.ftcdn.net/jpg/02/80/25/16/1000_F_280251625_S73jfCfb7btjIhSNfTWcL76vuegFxvOG.webp',
+      description: ' A frontend-only replica of Spotify, designed with HTML and CSS to mimic the original interface.',
+      tags: ['HTML', 'CSS'],
+      liveLink: 'Not Live',
+      githubLink: 'https://github.com/Anonymous777X'
     },
     {
-      title: 'Travel Blog',
-      image: 'https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-      description: 'A travel blog with location tagging, photo galleries, and interactive maps showcasing travel experiences.',
-      tags: ['React', 'GraphQL', 'Mapbox', 'Cloudinary'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com'
-    }
+      title: 'Jarvis AI Assistant',
+      image: 'https://wallpapercave.com/wp/wp1913251.jpg',
+      description: ' A Python-powered virtual assistant for Linux and Windows, integrated with various libraries for enhanced functionality.',
+      tags: ['Python', 'ttsx3', 'pywhatkit', 'pyjokes'],
+      liveLink: 'Not live yet',
+      githubLink: 'https://github.com/Anonymous777X'
+    },
+
+
+
   ];
 
   return (
@@ -103,7 +90,7 @@ const Projects = () => {
                     <FaExternalLinkAlt /> Live Demo
                   </a>
                   <a href={project.githubLink} className="project-link" target="_blank" rel="noopener noreferrer">
-                    <FaGithub /> Source Code
+                    <FaGithub /> Github
                   </a>
                 </div>
               </div>

@@ -10,9 +10,9 @@ const About = () => {
   });
 
   const stats = [
-    { number: '5+', title: 'Years Experience' },
-    { number: '20+', title: 'Projects Completed' },
-    { number: '15+', title: 'Happy Clients' },
+    { number: '6', title: 'Months Training Experience' },
+    { number: '4+', title: 'Projects Completed' },
+    { number: '7+', title: 'Technologies learned' },
   ];
 
   return (
@@ -34,15 +34,15 @@ const About = () => {
           style={{ maxWidth: '800px', margin: '0 auto' }}
         >
           <p>
-            Hello! I'm a passionate web developer with a keen eye for design and a love for creating 
-            intuitive, dynamic user experiences. With a background in both front-end and back-end 
-            development, I bring a holistic approach to every project.
+          Hello! I'm a passionate MERN stack developer with a keen eye for design and a love for crafting
+           intuitive, dynamic user experiences. With expertise in both front-end and back-end 
+           development, I take a holistic approach to building robust, scalable applications.
           </p>
           <p>
-            My journey in web development began over 5 years ago, and since then, I've had the 
-            privilege of working with diverse clients from startups to established businesses. 
-            I specialize in building responsive websites, interactive applications, and everything 
-            in between.
+          My journey in web development has been driven by hands-on experience and continuous 
+          learning. Over the past six months of dedicated MERN stack training, I've worked on 
+          creating responsive websites, interactive applications, and efficient back-end solutions.
+          I enjoy tackling challenges, optimizing performance, and delivering seamless user experiences.
           </p>
           <p>
             When I'm not coding, you can find me exploring new technologies, contributing to open-source 

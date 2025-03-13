@@ -10,29 +10,23 @@ const Experience = () => {
 
   const experiences = [
     {
-      date: '2021 - Present',
-      title: 'Senior Frontend Developer',
-      company: 'Tech Innovations Inc.',
-      description: 'Lead the frontend development team in building responsive and user-friendly web applications. Implemented modern React architectures and mentored junior developers.'
+      date: '2021 - 2024',
+      title: 'Chandigarh Group of Colleges, Punjab',
+      company: '8.02 SGPA',
+      description: 'Chandigarh Group of Colleges, Landran – A premier institute in Punjab known for quality education, strong placements, and industry collaborations.'
     },
     {
-      date: '2018 - 2021',
-      title: 'Web Developer',
-      company: 'Digital Solutions Ltd.',
-      description: 'Developed and maintained websites and applications for clients across various industries. Worked with JavaScript, React, and Node.js to create dynamic user interfaces.'
+      date: '2019 - 2021',
+      title: 'Dr. B.R. Ambedkar Govt. Polytechnic College, Himachal Pradesh',
+      company: '73%',
+      description: 'Dr. B.R. Ambedkar Govt. College, Ambota, HP – A reputed institution in Himachal Pradesh offering quality education and diverse academic programs.'
     },
     {
-      date: '2016 - 2018',
-      title: 'Frontend Developer',
-      company: 'Creative Agency Co.',
-      description: 'Collaborated with designers to implement pixel-perfect designs. Built interactive websites using HTML, CSS, and JavaScript with a focus on performance and accessibility.'
+      date: '2016 - 2017',
+      title: 'D.A.V.M. Public School, Himachal Pradesh',
+      company: '8.2 CGPA',
+      description: 'D.A.V.M Public School, Badhal Thore – A school focused on quality education and holistic development, following DAV traditions and values.'
     },
-    {
-      date: '2014 - 2016',
-      title: 'Junior Web Developer',
-      company: 'Startup Ventures',
-      description: 'Started my career working on various web projects. Gained experience in HTML, CSS, and JavaScript while contributing to the development of company websites.'
-    }
   ];
 
   return (
@@ -43,7 +37,7 @@ const Experience = () => {
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6 }}
         >
-          Work Experience
+          Educational Qualifications
         </motion.h2>
         
         <motion.div
