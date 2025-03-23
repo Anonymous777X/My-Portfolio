@@ -1,5 +1,6 @@
 // src/components/Contact.jsx
 import React from 'react';
+import { useRef,useState } from "react";
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaGithub, FaLinkedin, FaTwitter,FaInstagram, FaFacebook, } from 'react-icons/fa';
@@ -9,12 +10,23 @@ const Contact = () => {
     triggerOnce: true,
     threshold: 0.1,
   });
-
+  const formRef = useRef(null);
+  const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "" });
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    alert('Thank you for your message! This is a demo form.');
-  };
+    
+    const formDataObject = new FormData(formRef.current);
+    
+    fetch("/", {
+      method: "POST",
+      body: formDataObject,
+    })
+      .then(() => {
+        alert("Form submitted successfully!");
+        setFormData({ name: "", email: "", subject: "", message: "" }); // ✅ Reset fields
+      })
+      .catch((error) => alert("Error: " + error));
+    };
 
   return (
     <section id="contact" className="contact contact-section">
@@ -118,13 +130,16 @@ const Contact = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <h3 className="form-title">Send Me a Message</h3>
-            <form onSubmit={handleSubmit}>
+            <form ref={formRef} name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
               <div className="form-row">
                 <div className="form-group">
                   <label htmlFor="name">Name</label>
                   <input 
                     type="text" 
                     id="name" 
+                    name="name"
                     placeholder="Your Name" 
                     required 
                   />
@@ -134,7 +149,8 @@ const Contact = () => {
                   <label htmlFor="email">Email</label>
                   <input 
                     type="email" 
-                    id="email" 
+                    id="email"
+                    name="email"  
                     placeholder="Your Email" 
                     required 
                   />
@@ -145,7 +161,8 @@ const Contact = () => {
                 <label htmlFor="subject">Subject</label>
                 <input 
                   type="text" 
-                  id="subject" 
+                  id="subject"
+                  name='subject'
                   placeholder="Subject" 
                   required 
                 />
@@ -155,6 +172,7 @@ const Contact = () => {
                 <label htmlFor="message">Message</label>
                 <textarea 
                   id="message" 
+                  name='message'
                   placeholder="Your Message" 
                   required
                   rows="6"

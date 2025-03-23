@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-const Experience = () => {
+const Education = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -68,4 +68,4 @@ const Experience = () => {
   );
 };
 
-export default Experience; 
+export default Education; 

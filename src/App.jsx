@@ -5,13 +5,14 @@ import Header from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
-import Experience from './components/Experience';
+import Education from './components/Education';
 import Projects from './components/Projects';
 // import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LoadingScreen from './components/LoadingScreen';
 import './App.css';
+import TrainingAndInternships from './components/TrainingAndInternships';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -43,7 +44,8 @@ function App() {
             <Hero />
             <About />
             <Skills />
-            <Experience />
+            <Education/>
+            {/* <TrainingAndInternships/> */}
             <Projects />
             {/* <Testimonials /> */}
             <Contact />
