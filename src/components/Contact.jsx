@@ -91,8 +91,8 @@ const Contact = () => {
             <div className="social-links">
               <motion.a href="https://github.com/Anonymous777X" target="_blank" rel="noopener noreferrer" whileHover={{ y: -5 }}><FaGithub /></motion.a>
               <motion.a href="https://www.linkedin.com/in/sahilpatyal/" target="_blank" rel="noopener noreferrer" whileHover={{ y: -5 }}><FaLinkedin /></motion.a>
-              <motion.a href="https://instagram.com" target="_blank" rel="noopener noreferrer" whileHover={{ y: -5 }}><FaInstagram /></motion.a>
-              <motion.a href="https://facebook.com" target="_blank" rel="noopener noreferrer" whileHover={{ y: -5 }}><FaFacebook /></motion.a>
+              <motion.a href="https://www.instagram.com/sahil_ptyal/" target="_blank" rel="noopener noreferrer" whileHover={{ y: -5 }}><FaInstagram /></motion.a>
+              <motion.a href="https://www.facebook.com/sahil.patial.566" target="_blank" rel="noopener noreferrer" whileHover={{ y: -5 }}><FaFacebook /></motion.a>
             </div>
           </motion.div>
 
